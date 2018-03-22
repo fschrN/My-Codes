@@ -97,14 +97,14 @@ public class Control {
 		}
 
 	
-		calculate.getTotalGoals(player);
+		
 
 		// Return All the Matches Results;
 		ui.showMessage("\nRESULTS\n" + gamesString);
 		// Return Champion
 		ui.showMessage("THE CHAMPION IS: " + firstPlace);
 		
-		ui.showMessage("NUMBER OF GOALS SCORED: " + calculate.getTotalNumberOfGoals());
+		ui.showMessage("NUMBER OF GOALS SCORED: " + calculate.getTotalNumberOfGoals(player));
 
 	}
 
