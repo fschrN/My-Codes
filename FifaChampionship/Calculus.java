@@ -119,20 +119,14 @@ public class Calculus  {
 		return teamB;
 	}
 
-	
-	
-	public void getTotalGoals(Player [] player) {
+
+
+	public int getTotalNumberOfGoals(Player [] player) {
 
 		for (int i = 0; i < player.length; i++) 
 			
 						
 			totalNumberOfGoals += player[i].getGoalsFor();
-		
-		
-	}
-
-
-	public int getTotalNumberOfGoals() {
 		return totalNumberOfGoals;
 	}
 
